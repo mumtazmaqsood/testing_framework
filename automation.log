@@ -1,0 +1,98 @@
+08/25/2020 08:38:15 PM - LoginPage - INFO: Element Found with locator: Login and  locatorType: link
+08/25/2020 08:38:15 PM - LoginPage - INFO: Clicked on element with locator: Login locatorType: link
+08/25/2020 08:38:18 PM - LoginPage - INFO: Element Found with locator: user_email and  locatorType: id
+08/25/2020 08:38:19 PM - LoginPage - INFO: Sent data on element with locator: user_email locatorType: id
+08/25/2020 08:38:19 PM - LoginPage - INFO: Element Found with locator: user_password and  locatorType: id
+08/25/2020 08:38:19 PM - LoginPage - INFO: Sent data on element with locator: user_password locatorType: id
+08/25/2020 08:38:19 PM - LoginPage - INFO: Element Found with locator: commit and  locatorType: name
+08/25/2020 08:38:21 PM - LoginPage - INFO: Clicked on element with locator: commit locatorType: name
+08/25/2020 08:38:21 PM - LoginPage - INFO: Element Found with locator: //div[contains(text(),'Invalid email or password')] and  locatorType: xpath
+08/25/2020 08:38:21 PM - LoginPage - INFO: Element Found
+08/25/2020 08:38:23 PM - LoginPage - INFO: Element not found with locator: Login and  locatorType: link
+08/25/2020 08:38:23 PM - LoginPage - INFO: Cannot click on the element with locator: Login locatorType: link
+08/25/2020 08:38:25 PM - LoginPage - INFO: Element Found with locator: user_email and  locatorType: id
+08/25/2020 08:38:25 PM - LoginPage - INFO: Sent data on element with locator: user_email locatorType: id
+08/25/2020 08:38:25 PM - LoginPage - INFO: Element Found with locator: user_password and  locatorType: id
+08/25/2020 08:38:25 PM - LoginPage - INFO: Sent data on element with locator: user_password locatorType: id
+08/25/2020 08:38:25 PM - LoginPage - INFO: Element Found with locator: commit and  locatorType: name
+08/25/2020 08:38:30 PM - LoginPage - INFO: Clicked on element with locator: commit locatorType: name
+08/25/2020 08:38:30 PM - LoginPage - INFO: Element Found with locator: //img[@class='course-box-image'] and  locatorType: xpath
+08/25/2020 08:38:30 PM - LoginPage - INFO: Element Found
+08/25/2020 08:44:11 PM - LoginPage - INFO: Element Found with locator: Login and  locatorType: link
+08/25/2020 08:44:11 PM - LoginPage - INFO: Clicked on element with locator: Login locatorType: link
+08/25/2020 08:44:14 PM - LoginPage - INFO: Element Found with locator: user_email and  locatorType: id
+08/25/2020 08:44:14 PM - LoginPage - INFO: Sent data on element with locator: user_email locatorType: id
+08/25/2020 08:44:14 PM - LoginPage - INFO: Element Found with locator: user_password and  locatorType: id
+08/25/2020 08:44:14 PM - LoginPage - INFO: Sent data on element with locator: user_password locatorType: id
+08/25/2020 08:44:14 PM - LoginPage - INFO: Element Found with locator: commit and  locatorType: name
+08/25/2020 08:44:17 PM - LoginPage - INFO: Clicked on element with locator: commit locatorType: name
+08/25/2020 08:44:17 PM - LoginPage - INFO: Element Found with locator: //img[@class='course-box-image'] and  locatorType: xpath
+08/25/2020 08:44:17 PM - LoginPage - INFO: Element Found
+08/25/2020 08:47:59 PM - LoginPage - INFO: Element Found with locator: Login and  locatorType: link
+08/25/2020 08:48:00 PM - LoginPage - INFO: Clicked on element with locator: Login locatorType: link
+08/25/2020 08:48:03 PM - LoginPage - INFO: Element Found with locator: user_email and  locatorType: id
+08/25/2020 08:48:03 PM - LoginPage - INFO: Sent data on element with locator: user_email locatorType: id
+08/25/2020 08:48:03 PM - LoginPage - INFO: Element Found with locator: user_password and  locatorType: id
+08/25/2020 08:48:03 PM - LoginPage - INFO: Sent data on element with locator: user_password locatorType: id
+08/25/2020 08:48:03 PM - LoginPage - INFO: Element Found with locator: commit and  locatorType: name
+08/25/2020 08:48:06 PM - LoginPage - INFO: Clicked on element with locator: commit locatorType: name
+08/25/2020 08:48:06 PM - LoginPage - INFO: Element Found with locator: //div[contains(text(),'Invalid email or password')] and  locatorType: xpath
+08/25/2020 08:48:06 PM - LoginPage - INFO: Element Found
+08/25/2020 08:48:08 PM - LoginPage - INFO: Element not found with locator: Login and  locatorType: link
+08/25/2020 08:48:08 PM - LoginPage - INFO: Cannot click on the element with locator: Login locatorType: link
+08/25/2020 08:48:10 PM - LoginPage - INFO: Element Found with locator: user_email and  locatorType: id
+08/25/2020 08:48:10 PM - LoginPage - INFO: Sent data on element with locator: user_email locatorType: id
+08/25/2020 08:48:10 PM - LoginPage - INFO: Element Found with locator: user_password and  locatorType: id
+08/25/2020 08:48:11 PM - LoginPage - INFO: Sent data on element with locator: user_password locatorType: id
+08/25/2020 08:48:11 PM - LoginPage - INFO: Element Found with locator: commit and  locatorType: name
+08/25/2020 08:48:13 PM - LoginPage - INFO: Clicked on element with locator: commit locatorType: name
+08/25/2020 08:48:14 PM - LoginPage - INFO: Element Found with locator: //img[@class='course-box-image'] and  locatorType: xpath
+08/25/2020 08:48:14 PM - LoginPage - INFO: Element Found
+08/25/2020 08:55:56 PM - LoginPage - INFO: Element Found with locator: Login and  locatorType: link
+08/25/2020 08:55:56 PM - LoginPage - INFO: Clicked on element with locator: Login locatorType: link
+08/25/2020 08:56:01 PM - LoginPage - INFO: Element Found with locator: user_email and  locatorType: id
+08/25/2020 08:56:01 PM - LoginPage - INFO: Sent data on element with locator: user_email locatorType: id
+08/25/2020 08:56:01 PM - LoginPage - INFO: Element Found with locator: user_password and  locatorType: id
+08/25/2020 08:56:01 PM - LoginPage - INFO: Sent data on element with locator: user_password locatorType: id
+08/25/2020 08:56:01 PM - LoginPage - INFO: Element Found with locator: commit and  locatorType: name
+08/25/2020 08:56:04 PM - LoginPage - INFO: Clicked on element with locator: commit locatorType: name
+08/25/2020 08:56:04 PM - LoginPage - INFO: Element Found with locator: //div[contains(text(),'Invalid email or password')] and  locatorType: xpath
+08/25/2020 08:56:04 PM - LoginPage - INFO: Element Found
+08/25/2020 08:56:06 PM - LoginPage - INFO: Element not found with locator: Login and  locatorType: link
+08/25/2020 08:56:06 PM - LoginPage - INFO: Cannot click on the element with locator: Login locatorType: link
+08/25/2020 08:56:08 PM - LoginPage - INFO: Element Found with locator: user_email and  locatorType: id
+08/25/2020 08:56:08 PM - LoginPage - INFO: Sent data on element with locator: user_email locatorType: id
+08/25/2020 08:56:08 PM - LoginPage - INFO: Element Found with locator: user_password and  locatorType: id
+08/25/2020 08:56:08 PM - LoginPage - INFO: Sent data on element with locator: user_password locatorType: id
+08/25/2020 08:56:08 PM - LoginPage - INFO: Element Found with locator: commit and  locatorType: name
+08/25/2020 08:56:11 PM - LoginPage - INFO: Clicked on element with locator: commit locatorType: name
+08/25/2020 08:56:11 PM - LoginPage - INFO: Element Found with locator: //img[@class='course-box-image'] and  locatorType: xpath
+08/25/2020 08:56:11 PM - LoginPage - INFO: Element Found
+08/25/2020 09:52:37 PM - LoginPage - INFO: Element Found with locator: Login and  locatorType: link
+08/25/2020 09:52:37 PM - LoginPage - INFO: Clicked on element with locator: Login locatorType: link
+08/25/2020 09:52:37 PM - LoginPage - INFO: Element Found with locator: Login and  locatorType: link
+08/25/2020 09:52:37 PM - LoginPage - INFO: Clicked on element with locator: Login locatorType: link
+08/25/2020 09:54:58 PM - LoginPage - INFO: Element Found with locator: Login and  locatorType: link
+08/25/2020 09:54:58 PM - LoginPage - INFO: Clicked on element with locator: Login locatorType: link
+08/25/2020 09:55:00 PM - LoginPage - INFO: Element Found with locator: user_email and  locatorType: id
+08/25/2020 09:55:01 PM - LoginPage - INFO: Element Found with locator: user_password and  locatorType: id
+08/25/2020 09:55:01 PM - LoginPage - INFO: Element Found with locator: user_email and  locatorType: id
+08/25/2020 09:55:01 PM - LoginPage - INFO: Sent data on element with locator: user_email locatorType: id
+08/25/2020 09:55:01 PM - LoginPage - INFO: Element Found with locator: user_password and  locatorType: id
+08/25/2020 09:55:01 PM - LoginPage - INFO: Sent data on element with locator: user_password locatorType: id
+08/25/2020 09:55:04 PM - LoginPage - INFO: Element Found with locator: commit and  locatorType: name
+08/25/2020 09:55:06 PM - LoginPage - INFO: Clicked on element with locator: commit locatorType: name
+08/25/2020 09:55:06 PM - LoginPage - INFO: Element Found with locator: //div[contains(text(),'Invalid email or password')] and  locatorType: xpath
+08/25/2020 09:55:06 PM - LoginPage - INFO: Element Found
+08/25/2020 09:55:08 PM - LoginPage - INFO: Element not found with locator: Login and  locatorType: link
+08/25/2020 09:55:08 PM - LoginPage - INFO: Cannot click on the element with locator: Login locatorType: link
+08/25/2020 09:55:08 PM - LoginPage - INFO: Element Found with locator: user_email and  locatorType: id
+08/25/2020 09:55:08 PM - LoginPage - INFO: Element Found with locator: user_password and  locatorType: id
+08/25/2020 09:55:08 PM - LoginPage - INFO: Element Found with locator: user_email and  locatorType: id
+08/25/2020 09:55:08 PM - LoginPage - INFO: Sent data on element with locator: user_email locatorType: id
+08/25/2020 09:55:08 PM - LoginPage - INFO: Element Found with locator: user_password and  locatorType: id
+08/25/2020 09:55:08 PM - LoginPage - INFO: Sent data on element with locator: user_password locatorType: id
+08/25/2020 09:55:11 PM - LoginPage - INFO: Element Found with locator: commit and  locatorType: name
+08/25/2020 09:55:15 PM - LoginPage - INFO: Clicked on element with locator: commit locatorType: name
+08/25/2020 09:55:15 PM - LoginPage - INFO: Element Found with locator: //img[@class='course-box-image'] and  locatorType: xpath
+08/25/2020 09:55:15 PM - LoginPage - INFO: Element Found

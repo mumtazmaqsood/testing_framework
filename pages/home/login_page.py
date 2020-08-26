@@ -1,34 +1,25 @@
 import time
-from selenium.webdriver.common.by import By
 from base.selenium_driver import SeleniumDriver
+import utilities.custom_logger as cl
+import logging
+
 
 
 class LoginPage(SeleniumDriver):
 
+    log = cl.customLogger(logLevel=logging.DEBUG)
     def __init__(self, driver):
         super().__init__(driver)
         self.driver = driver
 
     #Locators
-    # _login_link = "//a[@class='navbar-link fedora-navbar-link']"
     _login_link = "Login"
     _email_id = "user_email"
     _password_id = "user_password"
     _login_btn = "commit"
-#----------------------------------------------------------------------------------------------
-# getting home page elements
-# ----------------------------------------------------------------------------------------------
-#     def getLoginLink(self):
-#         return self.driver.find_element(By.XPATH, self._login_link)
-#     def getEmailField(self):
-#         return self.driver.find_element(By.ID, self._email_id)
-#     def getPasswordField(self):
-#         return self.driver.find_element(By.ID, self._password_id)
-#     def getLoginBtn(self):
-#         return self.driver.find_element(By.NAME, self._login_btn)
+    _login_successful_element = "//img[@class='course-box-image']"
+    _login_unsuccessful_element = "//div[contains(text(),'Invalid email or password')]"
 
-
-#Actions performed on the elements , elementClick(), SendKeys() are the dynamic methods created in base class
 # ----------------------------------------------------------------------------------------------
     def clickLoginLink(self):
         self.elementClick(self._login_link, locatorType="link")
@@ -44,9 +35,27 @@ class LoginPage(SeleniumDriver):
 
 # ----------------------------------------------------------------------------------------------
 #functionality, wrape all the actions
-    def login(self, email, password):
+    def login(self, email="", password=""):
         self.clickLoginLink()
-        time.sleep(5)
+        # time.sleep(2)
+        self.clearFields()
         self.enterEmail(email)
         self.enterPassword(password)
+        time.sleep(3)
         self.clickLoginBtn()
+
+#isElementPresent() return true or false , check element is present or not, after logging in
+    def verfiyLoginSuccessful(self):
+        result = self.isElementPresent("//img[@class='course-box-image']", locatorType="xpath")
+        return result
+
+    def verfiyLoginFailed(self):
+        result = self.isElementPresent("//div[contains(text(),'Invalid email or password')]", locatorType="xpath")
+        return result
+
+#this method use to clear text fields
+    def clearFields(self):
+        email_field = self.getElement(self._email_id)
+        email_field.clear()
+        password_field = self.getElement(self._password_id)
+        password_field.clear()
