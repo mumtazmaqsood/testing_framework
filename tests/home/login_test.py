@@ -4,19 +4,15 @@ import time
 import unittest
 import pytest
 
-
+@pytest.mark.usefixtures("oneTimeSetUp", "setUp")
 class LoginTests(unittest.TestCase):
 
-    baseUrl = "https://letskodeit.teachable.com/"
-    driver = webdriver.Chrome()
-    driver.maximize_window()
-    driver.get(baseUrl)
-    driver.implicitly_wait(2)
-    lp = LoginPage(driver)
+    @pytest.fixture(autouse=True)
+    def classSetup(self, oneTimeSetUp):
+        self.lp = LoginPage(self.driver)
 
     @pytest.mark.run(order=1)
     def test_invalidLogin(self):
-        # self.driver.get(self.baseUrl)
         self.lp.login("test@email.com", "abcabcdedf")
         result = self.lp.verfiyLoginFailed()
         assert result == True
@@ -26,6 +22,6 @@ class LoginTests(unittest.TestCase):
         self.lp.login("test@email.com", "abcabc")
         result = self.lp.verfiyLoginSuccessful()
         assert result == True
-        self.driver.quit()
+
 
 
